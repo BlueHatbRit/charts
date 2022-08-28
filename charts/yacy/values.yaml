@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: yacy_search_server
+  repository: yacy/yacy_search_server
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   # Unfortunately YaCy doesn't push version numbers into dockerhub tags.
